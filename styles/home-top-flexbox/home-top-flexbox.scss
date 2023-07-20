@@ -51,6 +51,10 @@ body{
             padding-left: var(--padding--home-top-flexbox-row-row-row-row-left-article-left);
             padding-right: var(--padding--home-top-flexbox-row-row-row-row-left-article-right);
 
+            img{
+                display: none;
+            }
+
             p:first-child{
         
 
@@ -128,6 +132,11 @@ body{
         :last-child{
             margin-top: 10px;
         }
+        
+        .separador{
+            display: none;
+            }
+        
     }
 
 
@@ -159,11 +168,13 @@ body{
             font-size: var(--font--size--xs);
         }
 
-        hr{
-            height: 100;
+        .separador{
+        height: 1px;
         width: 100%;
-        color: black;
-        border-style: solid;
+        background-color: black;
+        &:last-of-type{
+            display: none;
+        }
         }
         
         h3{
@@ -174,6 +185,12 @@ body{
         p:last-child{
             font-size: var(--font--size--xs);
             margin-top: 5px;
+        }
+
+        .home-top-flexbox-row-right-article{
+            p:nth-of-type(2){
+                display: none;
+            }
         }
         
 
@@ -192,12 +209,26 @@ body{
 
     #home-top-flexbox{
         @include flex(flex, column, wrap, flex-start, default);
+        
 
            /*left article */
 
            #home-top-flexbox-left-flexbox{
             order: 3; 
             border: none;
+
+            .home-top-flexbox-left-flexbox-article{
+
+                img{
+                    display: flex;
+                    width: 100%;
+                }
+
+            }
+
+            
+
+            
              
          }
  
@@ -212,6 +243,14 @@ body{
         flex-basis: auto;
         order: 1;
 
+        .separador{
+            display: flex;
+            height: 1px;
+            width: 95%;
+            background-color: black;
+            margin: 25px;
+            }
+
 
     }
 
@@ -222,16 +261,31 @@ body{
             display: none;
             }
 
+        .separador{
+            display: flex;
+            height: 1px;
+            width: 95%;
+            background-color: black;
+            margin: 25px;
+            &:last-of-type{
+                display: flex;
+            }
+                }
+
+        .home-top-flexbox-row-right-article{
+            p, h3{
+                padding-left: 3%;
+                padding-right: 3%;
+            }
+            p:nth-of-type(2){
+                display: flex;
+            }
+
       }
     
 
 
 
     }
-      
-
-      
-
- 
- 
+}
 }
