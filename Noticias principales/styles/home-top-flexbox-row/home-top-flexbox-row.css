@@ -23,6 +23,7 @@
 #home-top-flexbox-row .home-top-flexbox-row-article img {
   width: 100px;
   height: 100px;
+  margin-left: 10px;
 }
 #home-top-flexbox-row .home-top-flexbox-row-article h3 {
   font-weight: normal;
@@ -45,13 +46,14 @@
     overflow-x: scroll;
     overflow-y: hidden;
     justify-content: flex-start;
+    width: 100vw;
   }
   #home-top-flexbox-row .border-left {
     border: 0px solid black;
   }
   #home-top-flexbox-row .home-top-flexbox-row-article {
     flex: 0 0 auto;
-    width: 40%;
+    width: 300px;
   }
   #home-top-flexbox-row .home-top-flexbox-row-article:first-of-type {
     padding-left: 0%;
