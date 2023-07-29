@@ -26,6 +26,7 @@
         img{
             width: 100px;
             height: 100px;
+            margin-left: 10px;
            
             
         }
@@ -85,6 +86,8 @@
         overflow-x: scroll;
         overflow-y: hidden;
         justify-content:flex-start;
+        width: 100vw;
+    
 
     
             
@@ -97,7 +100,7 @@
 
         .home-top-flexbox-row-article{
             flex: 0 0 auto;
-            width: 40%;
+            width: 300px;
 
             &:first-of-type{
                 padding-left: 0%;

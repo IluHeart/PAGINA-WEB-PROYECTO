@@ -55,12 +55,15 @@ body{
                 display: none;
             }
 
-            p:first-child{
+            .home-top-flexbox-left-flexbox-article-theme{
         
 
                 font-size: var(--font--size--xxs);
                 text-decoration: underline;
                 font-weight: bold;
+                padding-bottom: 5px;
+                text-underline-position: 10px;
+
             }
 
             h3{
@@ -108,15 +111,32 @@ body{
             
         }
 
-        p:first-of-type{
+        #home-top-flexbox-center-flexbox-image {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          #home-top-flexbox-center-flexbox-image img {
+            width: 90%;
+            position: relative; /* Asegura que los elementos posicionados dentro se ajusten a este contenedor */
+          }
+          
+          #home-top-flexbox-center-flexbox-image p {
             position: absolute;
-            margin-top: 300px;
-        
+            top: 93%; 
+            left: 50%; 
+            transform: translateX(-50%); 
             font-size: var(--font--size--subrayade);
             background-color: var(--white);
             text-decoration: underline;
             text-decoration-style: double;
-        }
+            display: flex;
+            align-items: center;
+          }
+          
         
         h3{
             margin-top: 20px;
@@ -207,6 +227,8 @@ body{
 
     /* div principal */
 
+    
+
     #home-top-flexbox{
         @include flex(flex, column, wrap, flex-start, default);
         
@@ -216,7 +238,9 @@ body{
            #home-top-flexbox-left-flexbox{
             order: 3; 
             border: none;
-
+            padding: 0%;
+            
+            
             .home-top-flexbox-left-flexbox-article{
 
                 img{
@@ -224,8 +248,52 @@ body{
                     width: 100%;
                 }
 
+                border-bottom: 1px solid black;
+
+                p, h3{
+                    padding-left: 3%;
+                    padding-right: 3%;
+                }
+                p:first-of-type{
+                    padding-top: 15px;
+                }
+
+                h3{
+                    font-size: var(--font--size--sm);
+                }
+                p:last-of-type{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+
+                &#home-top-flexbox-left-flexbox-article-first{
+
+
+                    p:first-of-type{
+                       position:absolute;
+                       margin-top: 62%;
+                        background-color: white;
+                        margin-left: 10px;
+                        height: 20px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    h3{
+                        font-size: var(--font--size--xm);
+                        padding-top: 20px;
+                    }
+                    p:last-of-type{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                   
+                }
+              
+
             }
 
+            
             
 
             
@@ -242,6 +310,39 @@ body{
     #home-top-flexbox-center-flexbox{
         flex-basis: auto;
         order: 1;
+        align-items: flex-start;
+
+        
+
+    
+     
+        
+        p, h3, div:last-of-type{
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+
+
+         h3{
+            text-align: start;
+         }
+
+         p{
+            text-align: start;
+         }
+
+         #home-top-flexbox-center-flexbox-image{
+            img{
+                width: 100%;
+            }
+            p{
+                left: 10%;
+
+            
+                 
+             }
+         }
 
         .separador{
             display: flex;
@@ -253,6 +354,11 @@ body{
 
 
     }
+
+
+
+
+
 
     #home-top-flexbox-right-flexbox{
         order: 2;
@@ -273,10 +379,12 @@ body{
                 }
 
         .home-top-flexbox-row-right-article{
-            p, h3{
+            p, h3, img{
                 padding-left: 3%;
                 padding-right: 3%;
+                padding-top: 1%;
             }
+
             p:nth-of-type(2){
                 display: flex;
             }
