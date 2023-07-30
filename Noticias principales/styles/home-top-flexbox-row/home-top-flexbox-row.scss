@@ -19,6 +19,7 @@
 
     .home-top-flexbox-row-article{
         @include flex(flex, default, default, center, flex-start);
+        margin-right: 10px;
         
      
         flex: 1;
@@ -27,6 +28,7 @@
             width: 100px;
             height: 100px;
             margin-left: 10px;
+            margin-right: 10px;
            
             
         }
@@ -40,6 +42,8 @@
             font-size: var(--font--size--xxs);
             font-weight: bold;
             text-decoration: underline;
+            margin-top: 10px;
+            margin-bottom: 10px;
         
         }
         

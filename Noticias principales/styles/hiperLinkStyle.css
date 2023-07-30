@@ -1,0 +1,15 @@
+@import url(../variables.css);
+
+
+.author:hover{
+    text-decoration-line: underline;
+}
+
+
+a{
+    color: var(--color--black);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--gray);
+}
