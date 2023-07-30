@@ -142,17 +142,49 @@ img {
     justify-content: center;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    height: 300px;
     padding: 2px;
     background-color: rgb(255, 255, 255);
     border: 3px solid black;
 }
 
 .ContI1-3 .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
+    padding: 10px;
     margin: 20px;
-    background-color: #f00000;
     text-align: center;
+}
+
+.ContI1-3 .item .Circle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.ContI1-3 .item .Circle img {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.ContI1-3 .item .Cb {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContI1-3 .item .Cb .ln1 {
+    height: 1px;
+    width: 30px;
+    background-color: #000000;
 }
 
 .ContI1-3 .item .lineLateral {
@@ -160,7 +192,7 @@ img {
     bottom: 50%;
     transform: translateY(50%);
     right: -30px;
-    height: 200px;
+    height: 250px;
     width: 1px;
     background-color: #000000;
 }
@@ -194,10 +226,60 @@ img {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 1074px) {
+.titleRS-1 {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 330px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.titleRS-1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.titleRS-1 .box button {
+    cursor: pointer;
+    height: 35px;
+    width: 290px;
+    border: #00000000;
+    background-color: #000000;
+    color: white;
+    font-size: large;
+}
+
+@media only screen and (max-width: 1600px) {
     body {
         margin-left: 5%;
         margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .ContI1-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .ContI1-3 .item2 {
+        display: none;
     }
 }
 
@@ -210,6 +292,14 @@ img {
     .navBottom {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .ContI1-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .ContI1-3 .item3 {
+        display: none;
     }
 }
 
