@@ -5,6 +5,7 @@
 body{
 
     @include flex(flex, column, nowrap, center, center);
+    overflow-x: hidden;
   
 }
 
@@ -38,8 +39,8 @@ body{
         @include flex(flex, column, nowrap, space-around, default);
         
 
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: var(--padding--xxs);
+        padding-right: var(--padding--xxs);
         border-left: var(--border);
         border-right: var(--border);
         max-width: 150px;
@@ -62,7 +63,7 @@ body{
                 font-size: var(--font--size--xxs);
                 text-decoration: underline;
                 font-weight: bold;
-                padding-bottom: 5px;
+                padding-bottom: var(--padding--xxxs);
                 text-underline-position: 10px;
 
             }
@@ -173,12 +174,12 @@ body{
 
     #home-top-flexbox-right-flexbox{
         flex: 1 1 auto;
-        width: 100%;
+        width: var(--width--full);
         max-width: 250px;
     
         @include flex(flex, column, nowrap, space-around, center);
         img {
-            width: 100%;
+            width: var(--width--full);
         }
 
         p:first-of-type{
@@ -192,7 +193,7 @@ body{
 
         .separador{
         height: 1px;
-        width: 100%;
+        width: var(--width--full);
         background-color: black;
         &:last-of-type{
             display: none;
@@ -249,14 +250,14 @@ body{
 
                 img{
                     display: flex;
-                    width: 100%;
+                    width: var(--width--full);
                 }
 
                 border-bottom: 1px solid black;
 
                 p, h3{
-                    padding-left: 3%;
-                    padding-right: 3%;
+                    padding-left: var(--padding--xxs);
+                    padding-right: var(--padding--xxs);
                 }
                 p:first-of-type{
                     padding-top: 15px;
@@ -322,8 +323,8 @@ body{
      
         
         p, h3, div:last-of-type{
-            padding-left: 3%;
-            padding-right: 3%;
+            padding-left: var(--padding--xxs);
+            padding-right: var(--padding--xxs);
         }
 
 
@@ -338,7 +339,7 @@ body{
 
          #home-top-flexbox-center-flexbox-image{
             img{
-                width: 100%;
+                width: var(--width--full);
             }
             p{
                 left: 10%;
@@ -385,9 +386,9 @@ body{
 
         .home-top-flexbox-row-right-article{
             p, h3, img{
-                padding-left: 3%;
-                padding-right: 3%;
-                padding-top: 1%;
+                padding-left: var(--padding--xxs);
+                padding-right: var(--padding--xxs);
+                padding-top: var(--padding--xxxs);
             }
 
             p:nth-of-type(2){
