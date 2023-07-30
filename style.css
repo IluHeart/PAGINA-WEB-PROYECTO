@@ -6,6 +6,7 @@ body {
 
 .contenedor {
   display: flex;
+  max-height: max-content;
   max-width: 1200px;
   /* Ajusta este valor según tus necesidades */
   margin: 0 auto;
@@ -21,13 +22,40 @@ body {
   flex-direction: column;
   justify-content: space-between;
   border-top: 5px solid #000000;
-  /* Borde exterior en la parte superior */ }
+  /* Borde exterior en la parte superior */
+  gap: 50px; }
+
+#tl2 {
+  flex: 1;
+  margin-bottom: -5px; }
 
 .linea {
   background-color: #000;
   width: 100%;
   height: 1px;
   margin-top: 3px; }
+
+.linead {
+  background-color: #000;
+  width: 80px;
+  height: 3px;
+  margin-top: -5px; }
+
+div.lineadd {
+  background-color: #000;
+  top: 302px;
+  left: 7px;
+  width: 105px;
+  height: 3px;
+  position: absolute; }
+
+div.lineat {
+  background-color: #000;
+  top: 239px;
+  left: 10px;
+  width: 121px;
+  height: 3px;
+  position: absolute; }
 
 .aside h4,
 .aside p {
@@ -58,7 +86,8 @@ body {
   padding-bottom: 20px;
   font-family: "Publico Banner Web Ultra Regular";
   letter-spacing: 2px;
-  padding-top: 40px; }
+  padding-top: 40px;
+  font-size: 20px; }
 
 .derechaup {
   border-top: 5px solid #000000;
@@ -78,36 +107,73 @@ body {
 .una {
   display: flex;
   margin: 0;
-  gap: 20px;
+  padding-top: 15px;
+  gap: 40px;
   justify-content: center; }
 
 #taylor {
-  max-width: 380px;
+  max-width: 372px;
   height: auto;
   display: block; }
 
 .taylorbar {
-  padding: 10px;
+  text-align: start;
   display: flex;
   flex-direction: column;
   flex: 0 0 40%;
-  position: relative; }
+  position: relative;
+  margin-bottom: -5px; }
+
+.taylorbar h2 {
+  font-family: "Publico Headline Web Bold Regular";
+  font-size: 26px;
+  margin-bottom: -10px;
+  line-height: 1.2; }
+
+p.ppu {
+  font-family: "AG_Helvetica";
+  font-size: 16px;
+  margin-bottom: -5px;
+  line-height: 1.2; }
+
+.ppu em {
+  font-style: italic; }
+
+p.ppd {
+  font-size: 13px;
+  font-family: "AG_Helvetica";
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+  font-weight: normal; }
+
+.meet p.ppd {
+  font-size: 13px;
+  font-family: "AG_Helvetica";
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+  font-weight: normal; }
+
+p.ppdd {
+  font-size: 11px;
+  font-family: "AG_Helvetica";
+  margin-bottom: 0px;
+  letter-spacing: 2px; }
 
 .chicodolar {
   display: flex;
-  padding: 10px;
+  padding-bottom: 15px;
   gap: 20px;
   flex: 1;
   border-bottom: 1px solid black; }
 
 #chicosol {
   width: auto;
-  height: 150px;
+  height: 165px;
   display: block; }
 
 #dolar {
   width: auto;
-  height: 150px;
+  height: 165px;
   display: block; }
 
 .derechadown {
@@ -116,7 +182,7 @@ body {
 
 .derechadown .linea {
   position: relative;
-  top: 8px; }
+  top: 10px; }
 
 .dos {
   justify-content: center;
@@ -124,11 +190,19 @@ body {
   display: flex;
   padding-top: 10px;
   border-top: 5px solid #000000;
-  /* Borde exterior en la parte superior */
   font-weight: bold; }
+
+.future h2 {
+  font-family: "Publico Banner Web Ultra Regular";
+  font-size: 22px;
+  letter-spacing: 0.11px;
+  line-height: 1.2; }
 
 .futurered {
   color: red; }
+
+.futuregray {
+  color: gray; }
 
 .badbunny {
   position: relative;
@@ -147,10 +221,47 @@ body {
   display: inline-block;
   max-width: calc(100% - 10px);
   padding: 5px; }
+  .text-container h4 {
+    text-decoration: underline;
+    font-family: "Graphik Semibold Regular";
+    line-height: 1.2;
+    font-size: 11px;
+    margin-bottom: -5px;
+    letter-spacing: 0.22px; }
+  .text-container p.tbunny {
+    font-family: "AG_Helvetica";
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal; }
+  .text-container h3 {
+    font-family: "Publico Headline Web Bold Regular";
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: -10px; }
+  .text-container h2 {
+    font-family: "Publico Headline Web Bold Regular";
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: -10px; }
 
 .meet {
   padding: 10px;
   margin: 10px; }
+  .meet p.ftop {
+    font-family: "Graphik Semibold Regular";
+    font-size: 15px;
+    text-decoration: underline;
+    text-underline-offset: 20px; }
+  .meet p {
+    font-family: "AG_Helvetica";
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal; }
+  .meet h2 {
+    font-family: "Publico Banner Web Ultra Regular";
+    font-size: 53px;
+    margin-top: 30px;
+    margin-bottom: 20px; }
 
 .disco {
   display: flex;
@@ -166,5 +277,36 @@ body {
 p.hora {
   font-size: 10px;
   color: #3c3c3c; }
+
+.cover {
+  font-family: "Graphik Semibold Regular";
+  font-size: 15px;
+  position: absolute;
+  padding: 7px;
+  background-color: white;
+  top: 255px;
+  left: 0px;
+  width: 120px;
+  height: 30px;
+  text-decoration: underline;
+  text-underline-offset: 20px; }
+
+.covert {
+  font-family: "Graphik Semibold Regular";
+  font-size: 15px;
+  position: absolute;
+  padding: 10px;
+  background-color: white;
+  top: 190px;
+  left: 0px;
+  width: 124px;
+  height: 30px;
+  text-decoration: underline;
+  text-underline-offset: 20px; }
+
+div.read {
+  display: flex;
+  border-top: 1px solid black;
+  padding-top: 15px; }
 
 /*# sourceMappingURL=style.css.map */
