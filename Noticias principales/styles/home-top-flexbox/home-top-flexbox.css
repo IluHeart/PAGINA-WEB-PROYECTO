@@ -159,6 +159,7 @@ body {
     order: 3;
     border: none;
     padding: 0%;
+    max-width: none;
   }
   #home-top-flexbox #home-top-flexbox-left-flexbox .home-top-flexbox-left-flexbox-article {
     border-bottom: 1px solid black;
@@ -228,6 +229,7 @@ body {
   }
   #home-top-flexbox #home-top-flexbox-right-flexbox {
     order: 2;
+    max-width: none;
   }
   #home-top-flexbox #home-top-flexbox-right-flexbox hr {
     display: none;

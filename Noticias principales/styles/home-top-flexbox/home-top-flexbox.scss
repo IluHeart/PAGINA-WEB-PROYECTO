@@ -241,6 +241,8 @@ body{
             order: 3; 
             border: none;
             padding: 0%;
+            max-width: none;
+            
             
             
             .home-top-flexbox-left-flexbox-article{
@@ -364,6 +366,7 @@ body{
 
     #home-top-flexbox-right-flexbox{
         order: 2;
+        max-width: none;
       
         hr{
             display: none;
