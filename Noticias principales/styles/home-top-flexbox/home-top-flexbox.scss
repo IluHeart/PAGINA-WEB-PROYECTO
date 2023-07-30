@@ -42,6 +42,7 @@ body{
         padding-right: 3%;
         border-left: var(--border);
         border-right: var(--border);
+        max-width: 150px;
 
         .home-top-flexbox-left-flexbox-article{
             @include flex(flex, column, nowrap, default, default);
@@ -172,16 +173,17 @@ body{
 
     #home-top-flexbox-right-flexbox{
         flex: 1 1 auto;
+        width: 100%;
+        max-width: 250px;
     
         @include flex(flex, column, nowrap, space-around, center);
-
         img {
             width: 100%;
         }
 
         p:first-of-type{
-            margin-top: var(--margin--articles);
-            margin-bottom: var(--margin--articles);
+            margin-top: 5px;
+            margin-bottom: 10px;
         
             font-weight: bold;
             text-decoration: underline;

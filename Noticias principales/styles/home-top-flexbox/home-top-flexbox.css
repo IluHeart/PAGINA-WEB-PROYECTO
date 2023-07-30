@@ -31,6 +31,7 @@ body {
   padding-right: 3%;
   border-left: var(--border);
   border-right: var(--border);
+  max-width: 150px;
 }
 #home-top-flexbox #home-top-flexbox-left-flexbox .home-top-flexbox-left-flexbox-article {
   display: flex;
@@ -108,6 +109,8 @@ body {
 }
 #home-top-flexbox #home-top-flexbox-right-flexbox {
   flex: 1 1 auto;
+  width: 100%;
+  max-width: 250px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
@@ -117,8 +120,8 @@ body {
   width: 100%;
 }
 #home-top-flexbox #home-top-flexbox-right-flexbox p:first-of-type {
-  margin-top: var(--margin--articles);
-  margin-bottom: var(--margin--articles);
+  margin-top: 5px;
+  margin-bottom: 10px;
   font-weight: bold;
   text-decoration: underline;
   font-size: var(--font--size--xs);
