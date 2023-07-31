@@ -1,9 +1,9 @@
 .contenedor {
     display: flex;
     max-height: max-content;
-    max-width: 1200px; /* Ajusta este valor según tus necesidades */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-    padding: 40px; /* Espacio a los lados */
+    max-width: var(--width--elements--page);
+    margin: 0 auto; 
+    padding: 40px; 
     gap: 50px;
     justify-content: center;
   }
@@ -13,13 +13,16 @@
     flex-basis: 18%;
     flex-direction: column;
     justify-content: space-between;
-    border-top: 5px solid #000000; /* Borde exterior en la parte superior */
+    border-top: 5px solid #000000; 
     gap: 50px;
   }
   #tl2 {
     flex: 1;
-    margin-bottom: -5px;
-  }
+    margin-bottom: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
   .linea {
     background-color: #000;
     width: 100%;
@@ -30,21 +33,21 @@
     background-color: #000;
     width: 80px;
     height: 3px;
-    margin-top: -5px;
+    margin-top: -2px;
   }
   div.lineadd {
     background-color: #000;
-    top: 302px;
-    left: 7px;
+    top: 295px;
+    left: 10px;
     width: 105px;
     height: 3px;
     position: absolute;
   }
   div.lineat {
     background-color: #000;
-    top: 239px;
-    left: 10px;
-    width: 121px;
+    top: 235px;
+    left: 9px;
+    width: 122px;
     height: 3px;
     position: absolute;
   }
@@ -109,6 +112,7 @@
   #taylor {
     max-width: 372px;
     height: auto;
+    margin-bottom: 10px;
     display: block;
   }
   .taylorbar {
@@ -117,18 +121,19 @@
     flex-direction: column;
     flex: 0 0 40%;
     position: relative;
-    margin-bottom: -5px;
+    margin-bottom: 10px;
   }
   .taylorbar h2 {
     font-family: "Publico Headline Web Bold Regular";
     font-size: 26px;
     margin-bottom: -10px;
     line-height: 1.2;
+    margin-bottom: 10px;
   }
   p.ppu {
     font-family: "AG_Helvetica";
     font-size: 16px;
-    margin-bottom: -5px;
+    margin-bottom: 10px;
     line-height: 1.2;
   }
   .ppu em {
@@ -165,11 +170,12 @@
     width: auto;
     height: 165px;
     display: block;
+    margin-bottom: 10px;
   }
   #dolar {
     width: auto;
     height: 165px;
-  
+    margin-bottom: 10px;
     display: block;
   }
   .derechadown {
@@ -194,6 +200,8 @@
       font-size: 22px;
       letter-spacing: 0.11px;
       line-height: 1.2;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
   .futurered {
@@ -212,11 +220,16 @@
   }
   #bb {
     display: block;
+    width: -webkit-fill-available;
+    display: block;
     max-width: 100%;
     height: 300px;
+    margin-bottom: 10px;
   }
   .text-container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     max-width: calc(100% - 10px);
     padding: 5px;
     h4 {
@@ -224,7 +237,7 @@
       font-family: "Graphik Semibold Regular";
       line-height: 1.2;
       font-size: 11px;
-      margin-bottom: -5px;
+      margin-bottom: 10px;
       letter-spacing: 0.22px;
     }
     p.tbunny {
@@ -232,18 +245,20 @@
       font-size: 16px;
       line-height: 1.2;
       font-weight: normal;
+      margin-bottom: 10px;
     }
     h3 {
       font-family: "Publico Headline Web Bold Regular";
       font-size: 26px;
       line-height: 1.2;
-      margin-bottom: -10px;
+      margin-bottom: 10px;
     }
     h2 {
       font-family: "Publico Headline Web Bold Regular";
       font-size: 20px;
       line-height: 1.2;
-      margin-bottom: -10px;
+      
+      margin-bottom: 10px;
     }
   }
   
@@ -261,12 +276,14 @@
       font-size: 16px;
       line-height: 1.2;
       font-weight: normal;
+      margin-bottom: 10px;
     }
     h2 {
       font-family: "Publico Banner Web Ultra Regular";
       font-size: 53px;
       margin-top: 30px;
       margin-bottom: 20px;
+      line-height: 1;
     }
   }
   .disco {
@@ -290,9 +307,9 @@
     font-family: "Graphik Semibold Regular";
     font-size: 15px;
     position: absolute;
-    padding: 7px;
+    padding: 10px;
     background-color: white;
-    top: 255px;
+    top: 259px;
     left: 0px;
     width: 120px;
     height: 30px;
@@ -305,7 +322,7 @@
     position: absolute;
     padding: 10px;
     background-color: white;
-    top: 190px;
+    top:  200px;
     left: 0px;
     width: 124px;
     height: 30px;

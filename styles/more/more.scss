@@ -1,4 +1,12 @@
 .contenido2{
+    
+    display: flex;
+    max-height: max-content;
+    max-width: var(--width--elements--page); 
+    margin: 0 auto; 
+    padding: 40px; 
+    gap: 50px;
+    justify-content: center;
     margin-top: 700px;
     
 }
@@ -45,10 +53,16 @@
       height: 2px;
       margin-top: -15px;
     }
+    .texton{
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
   .texton h4,
   .texton h2,
   .texton p {
     margin-bottom: 10px; 
+    
   }
   .new {
     border-top: 1px solid #000;
