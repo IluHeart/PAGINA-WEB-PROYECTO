@@ -1,4 +1,4 @@
-footer, ::before, ::after {
+footer *, footer ::before, footer ::after {
   box-sizing: border-box;
   border-width: 0;
   border-style: solid;
@@ -39,6 +39,9 @@ footer, ::before, ::after {
   font-family: Georgia, Helvetica, sans-serif;
   width: 100%;
   height: 24.289rem;
+}
+.footer-flexbox-section1 a {
+  color: white;
 }
 
 .footer-flexbox-section1-section-Bad-Bunny {
