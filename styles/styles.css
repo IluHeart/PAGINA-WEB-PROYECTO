@@ -1,0 +1,27 @@
+@import url(navbar/navbar.css);
+
+@import url(home-top-flexbox/home-top-flexbox.css);
+
+@import url(home-top-flexbox-row/home-top-flexbox-row.css);
+
+@import url(recomends/recomends.css);
+
+@import url(more/more.css);
+
+@import url(home-bottom-flexbox/home-bottom-flexbox.css);
+
+@import url(footer/footer.css);
+
+@import url(hiperLinkStyle.css);
+
+
+@import url(home-middle-flexbox/home-middle-flexbox.css);
+
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
