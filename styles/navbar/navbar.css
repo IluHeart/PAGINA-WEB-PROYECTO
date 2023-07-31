@@ -1,0 +1,117 @@
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 130px;
+}
+
+img {
+  cursor: pointer;
+  width: 400px;
+}
+
+
+.navTop .linea {
+  height: 1px;
+  width: 10px;
+  background-color: black;
+}
+
+.nvLn {
+  height: 6px;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.aLeft a, .aRigth a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  transition: 0.3s;
+  padding: 2px;
+}
+
+.aLeft a:hover, .aRigth a:hover {
+  text-decoration: underline;
+  color: rgb(199, 199, 199);
+}
+
+.aRigth, .aLeft {
+  position: relative;
+}
+
+.aLeft .linea {
+  position: absolute;
+  left: 2px;
+}
+
+.aRigth .linea {
+  position: absolute;
+  right: 2px;
+}
+
+.aRigth a {
+  text-align: end;
+}
+
+.navBottom, .navBottom ul, li, a {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.navBottom {
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 12px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.navBottom ul li {
+  position: relative;
+}
+
+.navBottom ul li a {
+  font-size: 14px;
+  transition: 0.4s;
+}
+
+.navBottom ul li a:hover {
+  color: #ff0000;
+}
+
+.navBottom ul li a::before {
+  display: block;
+  content: "";
+  opacity: 0;
+  background: #ff0000;
+  height: 5px;
+  top: 23px;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.navBottom ul li a:hover::before {
+  opacity: 100;
+  width: 100%;
+}
+
+.ico {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=navbar.css.map */
