@@ -5,6 +5,16 @@ body {
   padding-right: 3rem;
 }
 
+.contenido {
+  
+    display: flex;
+    max-height: max-content;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 40px; 
+    gap: 50px;
+    justify-content: center;
+}
 .columnas {
   display: flex;
 
