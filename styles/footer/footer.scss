@@ -1,4 +1,8 @@
-
+footer,::before,::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
 
 .footer-fondo-section1 {
     background-color: black;
