@@ -1,6 +1,5 @@
 @import url(../variables.css); /*mixin para flexbox */
 body {
- 
   overflow-x: hidden;
 }
 
@@ -73,6 +72,11 @@ body {
   display: none;
 }
 
+@media (max-width: 1756px) {
+  #home-top-flexbox {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 1244px) {
   #home-bottom-flexbox-border #home-bottom-flexbox #home-bottom-flexbox-section2 .home-bottom-flexbox-seccion2-section:last-of-type {
     display: none;

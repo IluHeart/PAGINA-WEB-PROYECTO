@@ -105,6 +105,14 @@ body{
     }
 }
 
+@media (max-width: 1756px){
+    #home-top-flexbox{
+        margin-top: 20px;
+    }
+
+
+}
+
 
 @media (max-width: 1244px){
 
@@ -172,6 +180,7 @@ body{
 
 
 @media (max-width: 768px){
+
     #home-bottom-flexbox-border{
         width: 100%;
         padding: 0px;
