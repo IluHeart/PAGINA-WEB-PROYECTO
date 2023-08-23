@@ -1,4 +1,6 @@
-footer *, footer ::before, footer ::after {
+footer *,
+footer ::before,
+footer ::after {
   box-sizing: border-box;
   border-width: 0;
   border-style: solid; }
@@ -27,7 +29,7 @@ footer *, footer ::before, footer ::after {
   flex-direction: column; }
 
 .footer-border3-section1 {
-  margin: 0.5rem 5.894rem 1.5rem 5.894rem;
+  margin: 0.5rem 15.313rem 1.5rem 15.313rem;
   padding: 2rem 0 2rem 0;
   max-width: 113.313rem;
   height: 28.289rem; }
@@ -66,8 +68,99 @@ footer *, footer ::before, footer ::after {
 
 .footer-flexbox-section1-flexbox2-rollingstone-legal {
   display: flex;
+
+  width: 58%;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-rollingstone {
+  display: flex;
+  flex-direction: column;
+  width: 18.472rem;
+  height: 100%;
+  border-right: solid white 0.063rem;
+  padding: 0 2rem;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-rollingstone h4 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-color: white;
+  border-width: 0 0 1px 0;
+  margin: 0;
+  padding: 0 0 0.313rem;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-rollingstone div {
+  content: "";
+  height: 0.063rem;
+  border-color: white;
+  border-style: solid;
+  border-width: 0 0 0.063rem 0;
+  margin-top: 0.625rem;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-rollingstone ul {
+  margin: 1rem 0 0;
+  columns: 2;
+  padding: 0;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-rollingstone li {
+  font-size: 1rem;
+  padding: 0.4rem 0;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-rollingstone a {
+  font-size: 0.875rem;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal {
+  width: 15.113rem;
+  height: 100%;
+  border-right: solid white 0.063rem;
+  padding: 0 2rem;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal h4 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-color: white;
+  text-decoration: blink white;
+  border-width: 0 0 1px 0;
+  margin: 0;
+  padding: 0 0 0.313rem;
+  text-transform: uppercase;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal div {
+  content: "";
+  height: 0.063rem;
+  border-color: white;
+  border-style: solid;
+  border-width: 0 0 0.063rem 0;
+  margin-top: 0.625rem;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal ul {
+  margin: 1rem 0 0;
+  padding: 0;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal li {
+  font-size: 1rem;
+  padding: 0.4rem 0;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal a {
+  font-size: 0.875rem;
+}
+.footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal .yourPrivacyChoices::after {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMCAxNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzAgMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRkZGRkZGO30KCS5zdDF7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojMDA2NkZGO30KCS5zdDJ7ZmlsbDojRkZGRkZGO30KCS5zdDN7ZmlsbDojMDA2NkZGO30KPC9zdHlsZT4KPGc+Cgk8ZyBpZD0iZmluYWwtLS1kZWMuMTEtMjAyMF8xXyI+CgkJPGcgaWQ9Il94MzBfMjA4LW91ci10b2dnbGVfMl8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMjc1LjAwMDAwMCwgLTIwMC4wMDAwMDApIj4KCQkJPGcgaWQ9IkZpbmFsLUNvcHktMl8yXyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3NS4wMDAwMDAsIDIwMC4wMDAwMDApIj4KCQkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik03LjQsMTIuOGg2LjhsMy4xLTExLjZINy40QzQuMiwxLjIsMS42LDMuOCwxLjYsN1M0LjIsMTIuOCw3LjQsMTIuOHoiLz4KCQkJPC9nPgoJCTwvZz4KCTwvZz4KCTxnIGlkPSJmaW5hbC0tLWRlYy4xMS0yMDIwIj4KCQk8ZyBpZD0iX3gzMF8yMDgtb3VyLXRvZ2dsZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyNzUuMDAwMDAwLCAtMjAwLjAwMDAwMCkiPgoJCQk8ZyBpZD0iRmluYWwtQ29weS0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjc1LjAwMDAwMCwgMjAwLjAwMDAwMCkiPgoJCQkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTIyLjYsMEg3LjRjLTMuOSwwLTcsMy4xLTcsN3MzLjEsNyw3LDdoMTUuMmMzLjksMCw3LTMuMSw3LTdTMjYuNCwwLDIyLjYsMHogTTEuNiw3YzAtMy4yLDIuNi01LjgsNS44LTUuOAoJCQkJCWg5LjlsLTMuMSwxMS42SDcuNEM0LjIsMTIuOCwxLjYsMTAuMiwxLjYsN3oiLz4KCQkJCTxwYXRoIGlkPSJ4IiBjbGFzcz0ic3QyIiBkPSJNMjQuNiw0YzAuMiwwLjIsMC4yLDAuNiwwLDAuOGwwLDBMMjIuNSw3bDIuMiwyLjJjMC4yLDAuMiwwLjIsMC42LDAsMC44Yy0wLjIsMC4yLTAuNiwwLjItMC44LDAKCQkJCQlsMCwwbC0yLjItMi4yTDE5LjUsMTBjLTAuMiwwLjItMC42LDAuMi0wLjgsMGMtMC4yLTAuMi0wLjItMC42LDAtMC44bDAsMEwyMC44LDdsLTIuMi0yLjJjLTAuMi0wLjItMC4yLTAuNiwwLTAuOAoJCQkJCWMwLjItMC4yLDAuNi0wLjIsMC44LDBsMCwwbDIuMiwyLjJMMjMuOCw0QzI0LDMuOCwyNC40LDMuOCwyNC42LDR6Ii8+CgkJCQk8cGF0aCBpZD0ieSIgY2xhc3M9InN0MyIgZD0iTTEyLjcsNC4xYzAuMiwwLjIsMC4zLDAuNiwwLjEsMC44bDAsMEw4LjYsOS44QzguNSw5LjksOC40LDEwLDguMywxMGMtMC4yLDAuMS0wLjUsMC4xLTAuNy0wLjFsMCwwCgkJCQkJTDUuNCw3LjdjLTAuMi0wLjItMC4yLTAuNiwwLTAuOGMwLjItMC4yLDAuNi0wLjIsMC44LDBsMCwwTDgsOC42bDMuOC00LjVDMTIsMy45LDEyLjQsMy45LDEyLjcsNC4xeiIvPgoJCQk8L2c+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=);
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 0.875rem;
+  margin-left: 0.4rem;
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+  width: 1.875rem;
+}
+
   width: 58%; }
-  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-rollingstone {
+ .footer-flexbox-section1-flexbox2-rollingstone {
     display: flex;
     flex-direction: column;
     width: 18.472rem;
@@ -140,6 +233,7 @@ footer *, footer ::before, footer ::after {
       top: -1px;
       vertical-align: middle;
       width: 1.875rem; }
+
 
 .footer-flexbox-section2-section-rss {
   width: 8.778rem;
@@ -280,6 +374,69 @@ footer *, footer ::before, footer ::after {
   display: flex;
   margin: 0 0 0 1rem;
   max-height: 2.13rem;
+
+  width: 13.88rem;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa {
+  border: 0.063rem;
+  display: flex;
+  font-family: Graphik Semibold, sans-serif;
+  min-width: 14rem;
+  width: 13.88rem;
+  margin-left: auto;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton {
+  max-height: 2.13rem;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-width: 1px;
+  border-color: #000000;
+  position: relative;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton h4 {
+  display: flex;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin: 0;
+  flex-grow: 2;
+  text-decoration: none;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton h4 svg {
+  margin-left: 5.5rem;
+  height: 0.75rem;
+  width: 1rem;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa ul {
+  display: none;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton:focus svg {
+  rotate: 180deg;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton:focus ul {
+  display: block;
+  max-height: 8.438rem;
+  font-size: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  overflow-y: scroll;
+  background-color: white;
+  padding-bottom: 0.5rem;
+}
+.footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton:focus li {
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+  text-align: left;
+  font-size: 0.75rem;
+}
+
   width: 13.88rem; }
   .footer-section2-menu-hamburguesa .footer-section2-hamburguesa {
     border: 0.063rem;
@@ -331,5 +488,138 @@ footer *, footer ::before, footer ::after {
       font-weight: 800;
       text-align: left;
       font-size: 0.75rem; }
+
+
+@media screen and (max-width: 768px) {
+  .footer-flexbox-section1-border-section-espacio-vacio-rollingstone-legal-rss {
+    height: fit-content;
+  }
+  .footer-fondo-section1 {
+    max-height: fit-content;
+  }
+  .footer-border1-section1 {
+    height: fit-content;
+  }
+  .footer-border2-section1 {
+    height: fit-content;
+  }
+  .footer-border3-section1 {
+    height: fit-content;
+    margin: 0;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+  }
+  .footer-flexbox-section1 {
+    max-width: 46.75rem;
+    height: 45.777rem;
+    padding: 0 1rem;
+  }
+  .footer-flexbox-section1-section-Bad-Bunny,
+  .footer-flexbox-section1-section-espacio-vacio,
+  .footer-flexbox-section2-section-rss,
+  .footer-flexbox-newsletter-send-us-a-tip,
+  .footer-flexbox-borde-doble {
+    display: none;
+  }
+  .footer-flexbox-section1-section-espacio-vacio-rollingstone-legal-rss {
+    max-width: 23.563rem;
+    max-height: 45.777rem;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal {
+    flex-wrap: wrap;
+    width: 80vw;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-border-rollingstone {
+    border: 0.063rem white;
+    width: 50%;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-border-rollingstone .footer-flexbox-section1-flexbox2-rollingstone {
+    max-height: 23.563rem;
+    border: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-border-rollingstone .footer-flexbox-section1-flexbox2-rollingstone h4 {
+    font-size: 0.813rem;
+    border-width: 0;
+    padding: 0.75rem 0;
+    text-decoration: none;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-border-rollingstone .footer-flexbox-section1-flexbox2-rollingstone li {
+    font-weight: 700;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-border-rollingstone .footer-flexbox-section1-flexbox2-rollingstone div {
+    display: none;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-border-rollingstone .footer-flexbox-section1-flexbox2-rollingstone ul {
+    margin: 0;
+    columns: 1;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal {
+    max-height: 23.563rem;
+    border: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 50vw;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal h4 {
+    font-size: 0.813rem;
+    border-width: 0;
+    padding: 0.75rem 0;
+    text-decoration: none;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal li {
+    font-weight: 700;
+    text-align: center;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal div {
+    display: none;
+  }
+  .footer-flexbox-section1-flexbox2-rollingstone-legal .footer-flexbox-section1-flexbox2-legal ul {
+    margin: 0;
+    columns: 1;
+  }
+  .footer-section2-copyright {
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    margin: 0;
+    height: 11.94rem;
+    max-height: 11.94rem;
+    font-size: 1rem;
+  }
+  .footer-section2-copyright svg {
+    margin-top: 0.938rem;
+    margin-bottom: 0.938rem;
+    width: 9.375rem;
+    height: 1.217rem;
+    order: 1;
+  }
+  .footer-section2-menu-hamburguesa {
+    order: 2;
+    width: max-content;
+  }
+  .footer-section2-menu-hamburguesa .footer-section2-hamburguesa {
+    width: max-content;
+  }
+  .footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton {
+    width: max-content;
+    height: max-content;
+    max-height: max-content;
+  }
+  .footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton h4 {
+    display: flex;
+    width: 37.894rem;
+    border: 0;
+    padding: 1rem 1rem 0.5rem;
+    align-items: center;
+  }
+  .footer-section2-menu-hamburguesa .footer-section2-hamburguesa .footer-section2-hamburguesa-boton h4 svg {
+    margin-left: auto;
+  }
+  .footer-section2-copyright-texto-enlace {
+    margin-left: 0;
+    margin-top: 1rem;
+    order: 3;
+  }
+}
 
 /*# sourceMappingURL=footer.css.map */

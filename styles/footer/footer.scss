@@ -1,9 +1,12 @@
-footer{
-    *,::before,::after {
-    box-sizing: border-box;
-    border-width: 0;
-    border-style: solid;
-}
+footer {
+
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+    }
 }
 
 .footer-fondo-section1 {
@@ -33,7 +36,7 @@ footer{
 }
 
 .footer-border3-section1 {
-    margin: 0.5rem 5.894rem 1.5rem 5.894rem;
+    margin: 0.5rem 15.313rem 1.5rem 15.313rem;
     padding: 2rem 0 2rem 0;
     max-width: 113.313rem;
     height: 28.289rem;
@@ -105,6 +108,7 @@ footer{
             padding: 0 0 0.313rem;
             position: relative;
             text-transform: uppercase;
+            text-decoration: none;
         }
 
         div {
@@ -408,7 +412,7 @@ footer{
                 font-weight: 800;
                 margin: 0;
                 flex-grow: 2;
-                
+                text-decoration: none;
 
                 svg {
                     margin-left: 5.5rem;
@@ -456,5 +460,168 @@ footer{
     }
 
 
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer-flexbox-section1-border-section-espacio-vacio-rollingstone-legal-rss{
+        height: fit-content;
+    }
+
+
+    .footer-fondo-section1 {
+        max-height: fit-content;
+    }
+
+    .footer-border1-section1 {
+        height: fit-content;
+    }
+
+    .footer-border2-section1{
+        height: fit-content;
+    }
+
+    .footer-border3-section1 {
+        height: fit-content;
+        margin: 0;
+        padding: 2rem 1.5rem 1rem 1.5rem;
+    }
+
+    .footer-flexbox-section1 {
+        max-width: 46.75rem;
+        height: 45.777rem;
+        padding: 0 1rem;
+    }
+
+    .footer-flexbox-section1-section-Bad-Bunny,
+    .footer-flexbox-section1-section-espacio-vacio,
+    .footer-flexbox-section2-section-rss,
+    .footer-flexbox-newsletter-send-us-a-tip,
+    .footer-flexbox-borde-doble {
+        display: none;
+    }
+
+    .footer-flexbox-section1-section-espacio-vacio-rollingstone-legal-rss {
+        max-width: 23.563rem;
+        max-height: 45.777rem;
+    }
+
+    .footer-flexbox-section1-flexbox2-rollingstone-legal {
+        flex-wrap: wrap;
+        width: 80vw;
+
+        .footer-flexbox-section1-flexbox2-border-rollingstone {
+            border: 0.063rem white;
+            width: 50%;
+
+            .footer-flexbox-section1-flexbox2-rollingstone {
+                max-height: 23.563rem;
+                border: 0;
+                text-align: center;
+                margin-bottom: 1rem;
+
+                h4 {
+                    font-size: 0.813rem;
+                    border-width: 0;
+                    padding: 0.75rem 0;
+                    text-decoration: none;
+                }
+
+                li {
+                    font-weight: 700;
+                    
+                }
+
+                div {
+                    display: none;
+                }
+
+                ul {
+                    margin: 0;
+                    columns: 1;
+                }
+            }
+        }
+
+        .footer-flexbox-section1-flexbox2-legal {
+            max-height: 23.563rem;
+            border: 0;
+            text-align: center;
+            margin-bottom: 1rem;
+            width: 50vw;
+
+            h4 {
+                font-size: 0.813rem;
+                border-width: 0;
+                padding: 0.75rem 0;
+                text-decoration: none;
+            }
+
+            li {
+                font-weight: 700;
+                text-align: center;
+            }
+
+            div {
+                display: none;
+            }
+
+            ul {
+                margin: 0;
+                columns: 1;
+            }
+        }
+
+    }
+
+    .footer-section2-copyright {
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        margin: 0;
+        height: 11.94rem;
+        max-height: 11.94rem;
+        font-size: 1rem;
+
+        svg {
+            margin-top: 0.938rem;
+            margin-bottom: 0.938rem;
+            width: 9.375rem;
+            height: 1.217rem;
+            order: 1;
+        }
+    }
+
+    .footer-section2-menu-hamburguesa {
+        order: 2;
+        width: max-content;
+
+        .footer-section2-hamburguesa {
+            width: max-content;
+            .footer-section2-hamburguesa-boton {
+                width: max-content;
+                height: max-content;
+                max-height:max-content ;
+
+                h4 {
+                    display: flex;
+                    width: 37.894rem;
+                    border: 0;
+                    padding: 1rem 1rem 0.5rem;
+                    align-items: center;
+
+                    svg {
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-section2-copyright-texto-enlace {
+        margin-left: 0;
+        margin-top: 1rem;
+        order: 3;
+    }
 
 }
