@@ -11,7 +11,8 @@ img {
   width: 400px;
 }
 
-.linea {
+
+.navTop .linea {
   height: 1px;
   width: 10px;
   background-color: black;
