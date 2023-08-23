@@ -1,7 +1,12 @@
-@charset "UTF-8";
 .contenido2 {
-  margin-top: 700px;
-}
+  display: flex;
+  max-height: max-content;
+  max-width: var(--width--elements--page);
+  margin: 0 auto;
+  padding: 40px;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 700px; }
 
 .columnas {
   display: flex;
@@ -11,57 +16,55 @@
   max-width: max-content;
   gap: 30px;
   margin: 0;
-  position: relative;
-}
+  position: relative; }
 
 img#imgn {
   width: 30%;
   height: auto;
   object-fit: cover;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 img#imgg {
   width: 50%;
   height: auto;
   object-fit: cover;
-  max-width: 100%;
-}
+  max-width: 100%; }
 
-.linea {
+.lineas {
   background-color: #000;
   width: 100%;
-  height: 3px;
-  margin-top: 3px;
-}
+  height: 4px;
+  margin-top: 3px; }
 
 .linea2 {
   background-color: #000;
   width: 100%;
   height: 1px;
-  margin-top: -5px;
-}
+  margin-top: -5px; }
 
 .linea3 {
   background-color: #000;
   width: 70px;
   height: 2px;
-  margin-top: -15px;
-}
+  margin-top: -15px; }
+
+.texton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
 
 .texton h4,
 .texton h2,
 .texton p {
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 .new {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  padding: 10px;
-  width: 99%;
-  margin: -20px 2px 0px 5px;
-}
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin: -20px 2px 0px 5px; }
 
 .new h1 {
   text-align: start;
@@ -72,50 +75,43 @@ img#imgg {
   letter-spacing: 2px;
   word-spacing: 0px;
   margin: 0px;
-  padding: 16px 0px 12px;
-}
+  padding: 16px 0px 12px; }
 
 .victoria {
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
+  border-bottom: 1px solid black; }
 
 .cloe {
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
+  border-bottom: 1px solid black; }
 
 .gunna {
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
+  border-bottom: 1px solid black; }
 
 .milles {
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
+  border-bottom: 1px solid black; }
 
 .dont {
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
+  border-bottom: 1px solid black; }
 
 .jbalvin {
   display: flex;
   gap: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
+  border-bottom: 1px solid black; }
 
 h4 {
   font-family: "Graphik Semibold Regular";
@@ -126,8 +122,7 @@ h4 {
   vertical-align: baseline;
   letter-spacing: 0.22px;
   word-spacing: 0px;
-  padding: 0px 0px 4px;
-}
+  padding: 0px 0px 4px; }
 
 .milles h4 {
   font-family: "Graphik Semibold Regular";
@@ -138,8 +133,7 @@ h4 {
   vertical-align: baseline;
   letter-spacing: 0.39px;
   word-spacing: 0px;
-  padding: 0px 0px 16px;
-}
+  padding: 0px 0px 16px; }
 
 h2 {
   font-family: "Publico Headline Web Bold Regular";
@@ -148,8 +142,7 @@ h2 {
   vertical-align: baseline;
   letter-spacing: normal;
   word-spacing: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 .milles h2 {
   font-family: "Publico Banner Web Ultra Regular";
@@ -158,8 +151,7 @@ h2 {
   vertical-align: baseline;
   letter-spacing: normal;
   word-spacing: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 p#descrip {
   font-family: "AG_Helvetica";
@@ -168,8 +160,7 @@ p#descrip {
   vertical-align: baseline;
   letter-spacing: normal;
   word-spacing: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 #autores {
   font-family: "AG_Helvetica";
@@ -178,8 +169,7 @@ p#descrip {
   vertical-align: baseline;
   letter-spacing: 1.65px;
   word-spacing: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 .milles p#autores {
   font-family: "AG_Helvetica";
@@ -188,8 +178,7 @@ p#descrip {
   vertical-align: baseline;
   letter-spacing: 1.5px;
   word-spacing: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 .read-more {
   display: inline-block;
@@ -201,19 +190,16 @@ p#descrip {
   bottom: -20px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2;
-}
+  z-index: 2; }
 
 .read-more::before {
-  content: "▼";
+  content: "\25BC";
   display: inline-block;
-  margin-right: 5px;
-}
+  margin-right: 5px; }
 
 .read-more::after {
-  content: "▼";
+  content: "\25BC";
   display: inline-block;
-  margin-left: 5px;
-}
+  margin-left: 5px; }
 
 /*# sourceMappingURL=more.css.map */
