@@ -147,6 +147,10 @@ body{
 
 @media (max-width: 992px){
 
+    #home-top-flexbox{
+        margin-top: 50px;
+    }
+
     #home-bottom-flexbox-border{
         #home-bottom-flexbox{
         
@@ -180,6 +184,8 @@ body{
 
 
 @media (max-width: 768px){
+
+   
 
     #home-bottom-flexbox-border{
         width: 100%;
