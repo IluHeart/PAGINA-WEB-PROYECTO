@@ -38,22 +38,34 @@ a:hover {
 h4 {
   text-align: center;
 }
-
+h3.recomends1 {
+  text-align: center;
+  padding-top: 10px;
+}
 h5 {
   text-decoration-line: underline;
+  padding-top: 10px;
 }
 
 h1 {
   text-align: center;
   padding: 10px;
 }
-
+.mini-recommends1 {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  gap: 10px;
+  width: 1250px;
+}
 .mini-recommends {
   display: flex;
   padding: 10px;
   margin: 10px;
+  justify-content: center;
   gap: 10px;
-  width: 130vh;
+  
 }
 
 .contenido {
@@ -75,9 +87,11 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-
 #imagen {
   width: 150px;
+}
+#imagen2 {
+  width: 100%;
 }
 
 .btn {
@@ -121,7 +135,15 @@ h1 {
   width: 100%;
 }
 
-.frase {
+h1.frase {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+h4#frase {
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-left: 90px;
   margin-right: 90px;
 }
